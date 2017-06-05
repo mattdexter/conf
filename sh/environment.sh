@@ -1,1 +1,0 @@
-export GITUSER="$HOSTNAME"
