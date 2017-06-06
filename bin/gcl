@@ -1,1 +1,0 @@
-git clone "git@github.com:${GITUSER}/${1}.git" ${2}
