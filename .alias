@@ -17,6 +17,8 @@ alias gc="git commit"
 alias gp="git push"
 alias gcl="git clone"
 
+alias pirr="pip install -r requirements.txt"
+
 alias nin="npm init"
 alias nis="npm i -S"
 alias nid="npm i -D"
