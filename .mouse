@@ -1,4 +1,6 @@
-xinput set-prop 13 "Device Accel Constant Deceleration" 1.2
-xinput set-prop 13 "Device Accel Adaptive Deceleration" 1.2
-xinput set-prop 13 "Device Accel Velocity Scaling" 1
-xinput set-prop 13 "Device Accel Profile" -1
+export MOUSE_ID=17
+
+xinput set-prop ${MOUSE_ID} "Device Accel Constant Deceleration" 1.2
+xinput set-prop ${MOUSE_ID} "Device Accel Adaptive Deceleration" 1.2
+xinput set-prop ${MOUSE_ID} "Device Accel Velocity Scaling" 1
+xinput set-prop ${MOUSE_ID} "Device Accel Profile" -1
