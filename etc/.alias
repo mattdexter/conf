@@ -19,6 +19,7 @@ alias gi="git init"
 alias ga="git add"
 alias gc="git commit"
 alias gp="git push"
+alias gpl="git pull"
 alias gcl="git clone"
 
 alias pir="pip install -r requirements.txt"
@@ -27,6 +28,9 @@ alias spi="sudo -H pip install"
 alias pfr="pip freeze > requirements.txt"
 
 alias pym="python manage.py"
+
+alias doc="docker"
+alias dco="docker-compose"
 
 alias nin="npm init"
 alias nis="npm i -S"
