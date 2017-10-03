@@ -37,6 +37,7 @@ alias pym="python manage.py"
 
 alias doc="docker"
 alias dps="docker ps"
+alias dlg="docker logs"
 alias dex="docker exec -it"
 alias drn="docker run -it"
 alias dco="docker-compose"
