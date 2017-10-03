@@ -1,2 +1,2 @@
-# My UNIX configs
+# UNIX configs
 These are my UNIX dotfiles.
