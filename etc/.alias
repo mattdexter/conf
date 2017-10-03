@@ -20,11 +20,11 @@ alias agu="sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgr
 alias pfl=". ~/.profile"
 
 alias g="git"
-alias gi="git init"
+alias gin="git init"
 alias ga="git add"
 alias gcm="git commit -m"
-alias gp="git push"
-alias gpl="git pull"
+alias gpsh="git push"
+alias gpll="git pull"
 alias gcl="git clone"
 
 alias pir="pip install -r requirements.txt"
