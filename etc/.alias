@@ -45,10 +45,11 @@ alias dcu="docker-compose up"
 alias dcud="docker-compose up -d"
 alias dcbu="docker-compose build && docker-compose up"
 alias dcbud="docker-compose build && docker-compose up -d"
-alias dcdbu="docker-compose down && docker-compose build && docker-compose up"
-alias dcdbud="docker-compose down && docker-compose build && docker-compose up -d"
 alias dcd="docker-compose down"
 alias dcdb="docker-compose down && docker-compose build"
+alias dcdbu="docker-compose down && docker-compose build && docker-compose up"
+alias dcdbud="docker-compose down && docker-compose build && docker-compose up -d"
+
 alias dmc="docker-machine"
 alias dms="docker-machine ls"
 
