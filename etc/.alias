@@ -1,5 +1,7 @@
-alias c="clear"
-alias m="mkdir"
+alias pfl=". ~/.profile"
+
+alias cl="clear"
+alias mkd="mkdir"
 
 alias 644="chmod 644"
 alias 744="chmod 744"
@@ -18,8 +20,6 @@ alias agr="sudo apt-get remove"
 alias acs="apt-cache search"
 alias agu="sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get autoremove"
 
-alias pfl=". ~/.profile"
-
 alias gin="git init"
 alias ga="git add"
 alias gcm="git commit -m"
@@ -36,9 +36,13 @@ alias pym="python manage.py"
 
 alias doc="docker"
 alias dps="docker ps"
-alias dlg="docker logs"
+alias dlog="docker logs"
 alias dex="docker exec -it"
 alias drn="docker run -it"
+
+alias dmc="docker-machine"
+alias dms="docker-machine ls"
+
 alias dco="docker-compose"
 alias dcb="docker-compose build"
 alias dcu="docker-compose up"
@@ -49,9 +53,6 @@ alias dcd="docker-compose down"
 alias dcdb="docker-compose down && docker-compose build"
 alias dcdbu="docker-compose down && docker-compose build && docker-compose up"
 alias dcdbud="docker-compose down && docker-compose build && docker-compose up -d"
-
-alias dmc="docker-machine"
-alias dms="docker-machine ls"
 
 alias nin="npm init"
 alias nis="npm i -S"
