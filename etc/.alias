@@ -59,3 +59,8 @@ alias nis="npm i -S"
 alias nid="npm i -D"
 alias nig="npm i -g"
 
+alias sys="sudo systemctl"
+alias syr="sudo systemctl restart"
+alias syrn="sudo systemctl restart nginx"
+alias syrd="sudo systemctl restart docker"
+alias sydr="sudo systemctl daemon-reload"
