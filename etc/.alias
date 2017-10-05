@@ -47,6 +47,7 @@ alias dms="docker-machine ls"
 
 alias dco="docker-compose"
 alias dcb="docker-compose build"
+alias dcr="docker-compose run"
 alias dcu="docker-compose up"
 alias dcud="docker-compose up -d"
 alias dcbu="docker-compose build && docker-compose up"
