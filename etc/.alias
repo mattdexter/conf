@@ -49,13 +49,14 @@ alias dco="docker-compose"
 alias dcr="docker-compose restart"
 alias dcrn="docker-compose run"
 
+alias dcb="docker-compose build"
+alias dcbr="docker-compose build && docker-compose restart"
+
 alias dcu="docker-compose up"
 alias dcud="docker-compose up -d"
 alias dcuo="docker-compose up --remove-orphans"
 alias dcudo="docker-compose up -d --remove-orphans"
 
-alias dcb="docker-compose build"
-alias dcbr="docker-compose build && docker-compose restart"
 alias dcbu="docker-compose build && docker-compose up"
 alias dcbud="docker-compose build && docker-compose up -d"
 alias dcbuo="docker-compose build && docker-compose up --remove-orphans"
