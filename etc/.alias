@@ -40,6 +40,8 @@ alias dps="docker ps"
 alias dlog="docker logs"
 alias dex="docker exec -it"
 alias drn="docker run -it"
+alias dnw="docker network"
+alias dnws="docker network ls"
 alias drmi="docker rmi $(docker images -a -q)"
 
 alias dmc="docker-machine"
