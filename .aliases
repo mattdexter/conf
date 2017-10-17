@@ -77,6 +77,8 @@ alias dcdbud="docker-compose down && docker-compose build && docker-compose up -
 alias dcdbuo="docker-compose down && docker-compose build && docker-compose up --remove-orphans"
 alias dcdbudo="docker-compose down && docker-compose build && docker-compose up -d --remove-orphans"
 
+alias ecrl="$(aws ecr get-login --no-include-email --region us-east-1)"
+
 alias nin="npm init"
 alias nis="npm i -S"
 alias nid="npm i -D"
