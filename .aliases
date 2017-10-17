@@ -1,7 +1,12 @@
 alias pfl=". ~/.profile"
 
-alias cl="clear"
-alias mkd="mkdir"
+alias c="clear"
+alias l="ls -al"
+alias m="mkdir -p"
+alias t="touch"
+
+alias v="vim"
+alias sv="sudo vim"
 
 alias 644="chmod 644"
 alias 744="chmod 744"
@@ -11,9 +16,6 @@ alias 775="chmod 775"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
-
-alias v="vim"
-alias sv="sudo vim"
 
 alias agi="sudo apt-get install"
 alias agr="sudo apt-get remove"
@@ -80,9 +82,15 @@ alias ecrl="$(aws ecr get-login --no-include-email --region us-east-1)"
 
 alias ecs="ecs-cli"
 alias eps="ecs-cli ps"
+alias eup="ecs-cli up"
+alias edn="ecs-cli down"
 
 alias eco="ecs-cli compose"
 alias ecu="ecs-cli compose -f docker-compose.prod.yml up"
+alias ecd="ecs-cli compose -f docker-compose.prod.yml down"
+
+alias esu="ecs-cli compose -f docker-compose.prod.yml service up"
+alias esr="ecs-cli compose -f docker-compose.prod.yml service rm"
 
 alias nin="npm init"
 alias nis="npm i -S"
