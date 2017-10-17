@@ -79,6 +79,10 @@ alias dcdbudo="docker-compose down && docker-compose build && docker-compose up 
 
 alias ecrl="$(aws ecr get-login --no-include-email --region us-east-1)"
 
+alias ecs="ecs-cli"
+alias ecc="ecs-cli compose"
+alias ecu="ecs-cli compose up"
+
 alias nin="npm init"
 alias nis="npm i -S"
 alias nid="npm i -D"
