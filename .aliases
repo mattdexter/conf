@@ -29,12 +29,13 @@ alias gpll="git pull"
 alias gcl="git clone"
 alias gls="git ls-files"
 
+alias py="python"
+alias pym="python manage.py"
+
 alias pir="pip install -r requirements.txt"
 alias pin="pip install"
 alias spi="sudo -H pip install"
 alias pfr="pip freeze > requirements.txt"
-
-alias pym="python manage.py"
 
 alias doc="docker"
 alias dps="docker ps"
