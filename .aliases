@@ -73,7 +73,7 @@ alias dcbudr="docker-compose -f docker-compose.prod.yml build && docker-compose 
 
 alias dcd="docker-compose -f docker-compose.prod.yml down"
 alias dcdb="docker-compose -f docker-compose.prod.yml down && docker-compose -f docker-compose.prod.yml build"
-alias dcdbu="docker-compose -f docker-compose.prod.yml down && docker-compos -f docker-compose.prod.ymle build && docker-compose up -f docker-compose.prod.yml"
+alias dcdbu="docker-compose -f docker-compose.prod.yml down && docker-compose -f docker-compose.prod.yml build && docker-compose up -f docker-compose.prod.yml"
 alias dcdbud="docker-compose -f docker-compose.prod.yml down && docker-compose -f docker-compose.prod.yml build && docker-compose up -f docker-compose.prod.yml -d"
 alias dcdbur="docker-compose -f docker-compose.prod.yml down && docker-compose -f docker-compose.prod.yml build && docker-compose up -f docker-compose.prod.yml --remove-orphans"
 alias dcdbudr="docker-compose -f docker-compose.prod.yml down && docker-compose -f docker-compose.prod.yml build && docker-compose up -f docker-compose.prod.yml -d --remove-orphans"
