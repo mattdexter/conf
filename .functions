@@ -1,13 +1,1 @@
-function mcd { 
-	mkdir -p "$1" && cd "$1";
-}
-
-function dockenv {
-    eval `docker-machine env "$1"`
-}
-
-function vmshare {
-    VBoxManage sharedfolder add ${1} --automount --hostpath "${2}" --name "${3}"
-    docker-machine ssh ${1} "sudo mkdir --parents ${4}"
-    docker-machine ssh ${1} "sudo mount -t vboxsf ${3} ${4}"
-}
+function mcd { mkdir -p "$1" && cd "$1"; }
