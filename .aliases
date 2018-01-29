@@ -43,9 +43,14 @@ alias p3="python3"
 alias pym="python manage.py"
 
 alias pir="pip install -r requirements.txt"
-alias pin="pip install"
+alias pi="pip install"
 alias spi="sudo -H pip install"
-alias pfr="pip freeze > requirements.txt"
+alias pf="pip freeze > requirements.txt"
+
+alias p3ir="pip3 install -r requirements.txt"
+alias p3i="pip3 install"
+alias sp3i="sudo -H pip3 install"
+alias p3f="pip freeze > requirementst.txt"
 
 alias doc="docker"
 alias dps="docker ps"
