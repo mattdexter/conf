@@ -1,2 +1,2 @@
 # UNIX configs
-These are my UNIX dotfiles.
+These are my UNIX aliases.
