@@ -41,20 +41,31 @@ alias deac="deactivate"
 
 alias d="docker"
 alias dps="docker ps"
+alias dpl="docker ps -lq
 alias db="docker build"
 alias dr="docker run"
+alias dri="docker run -it"
 alias dpl="docker pull"
 alias dpsh="docker push"
-alias dl="docker logs"
+alias dlo="docker logs"
+alias dex="docker exec"
+alias dei="docker exec -it"
 
 alias dc="docker-compose"
 alias dcb="docker-compose build"
 alias dcu="docker-compose up"
+alias dcud="docker-compose up -d"
+alias dcd="docker-compose down"
 alias dcbu="docker-compose build && docker-compose up"
+alias dcbud="docker-compose build && docker-compose up -d"
 alias dcr="docker-compose restart"
 
 alias ec2="aws ec2"
-alias ecs="ecs-cli"
+alias ecs="aws ecs"
+alias ecsrt="aws ecs register-task-definition --cli-input-json file://"
+alias ecr="aws ecr"
+alias ecrli="$(aws ecr get-login --no-include-email)"
+alias ecrcr="aws ecr create-repository --repository-name"
 
 alias ss="spark-submit"
 
