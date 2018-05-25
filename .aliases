@@ -41,7 +41,7 @@ alias deac="deactivate"
 
 alias d="docker"
 alias dps="docker ps"
-alias dpl="docker ps -lq
+alias dpl="docker ps -lq"
 alias db="docker build"
 alias dr="docker run"
 alias dri="docker run -it"
